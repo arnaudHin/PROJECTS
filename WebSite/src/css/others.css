@@ -1,0 +1,313 @@
+
+/* ---------------------------------------------------------------------------------- */
+
+body{
+    background-color: black;
+    display: flex;
+}
+
+
+/* HEADER */
+.header{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0%;
+    height: 70px;
+    line-height: 70px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+
+.header .header-logo{
+    font-family: 'Roboto', sans-serif;
+    width: 5%;
+    float: left;
+    margin-left: 30px;
+    margin-top: 6px;
+
+}
+.header .header-logo img:hover{
+    width: 80%;
+    margin: 10px;
+}
+
+.header .header-menu{
+    float: right;
+    margin-left: 30px;
+}
+
+.header .header-menu a{
+    margin-right: 15px;
+    font-size: 20px;
+    color: cornflowerblue;
+    font-family: 'Roboto', sans-serif;
+}
+.header .header-menu a:hover{
+    color: whitesmoke;
+}
+.line{
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 5px;
+    top: 70px;
+    position: fixed;
+}
+
+/* ANIMATION */
+
+
+/* -------------------------------------------------------ABOUT ME------------------------------------------------------------ */
+
+.content-photo-presentation{
+    margin-top: 40px;
+    display: flex;
+}
+.container-aboutme .box-aboutme-image {
+    height: 400px;
+    width: 400px;
+    margin-top: 70px;
+    margin-left: 20px;
+    overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:150px;
+
+
+}
+/*  textes + titres de la page */
+
+.container-aboutme  h1{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-size: 8mm;
+}
+
+.container-aboutme  p{
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+    font-size: 6mm;
+}
+
+/*  ____________________________________________ */
+
+.container-aboutme .img-drapeau {
+    height: 100px;
+    width: 100px;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+/*  ____________________________________________ */
+
+.container-aboutme .box-aboutme-intro {
+    margin-top: 80px;
+    margin-left: 40px;
+    width: 1200px;
+    height: 400px;
+    border: groove;
+    border-color: cornflowerblue;
+}
+/*  ____________________________________________ */
+
+.container-aboutme .box-aboutme-intro .neural-network b{
+    background-color: cornflowerblue;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+}
+.feature1{
+    position: absolute;
+    margin-left: 120px;
+    top: 170px;
+}
+.nn_0_0{margin-left: 350px;top: 160px;}
+.nn_0_1{margin-left: 550px;top: 200px;}
+.nn_0_2{margin-left: 750px;top: 160px;}
+
+.feature2{
+    position: absolute;
+    margin-left: 120px;
+    top: 260px;
+}
+.nn_1_0{margin-left: 350px;top: 250px;}
+.nn_1_1{margin-left: 550px;top: 290px;}
+.nn_1_2{margin-left: 750px; top: 250px;}
+
+.feature3{
+    position: absolute;
+    margin-left: 120px;
+    top: 350px;
+}
+.nn_2_0{margin-left: 350px; top: 340px;}
+.nn_2_1{margin-left: 550px; top: 380px;}
+.nn_2_2{margin-left: 750px; top: 340px;}
+
+.feature4{
+    position: absolute;
+    margin-left: 120px;
+    top: 440px;
+}
+.nn_3_0{margin-left: 350px; top: 430px;}
+.nn_3_2{margin-left: 750px; top: 430px;}
+
+.nn_out{margin-left: 950px; top: 290px;}
+
+.neural-network hr{
+    background-color: wheat;
+    position: absolute;
+    width: 240px;
+    z-index: 1;
+}
+/* COUCHE 1 */
+.neural-network .w1_1_1{margin-left: 370px; top: 190px; transform: rotate(10deg);}
+.neural-network .w2_1_1{margin-left: 370px; top: 235px; transform: rotate(32deg);}
+.neural-network .w3_1_1{width: 270px; margin-left: 350px; top: 270px; transform: rotate(48deg);}
+
+.neural-network .w1_2_1{margin-left: 370px; top: 220px; transform: rotate(-15deg);}
+.neural-network .w2_2_1{margin-left: 370px; top: 270px; transform: rotate(12deg);}
+.neural-network .w3_2_1{margin-left: 370px; top: 320px; transform: rotate(32deg);}
+
+.neural-network .w1_3_1{margin-left: 370px; top: 280px; transform: rotate(-36deg);}
+.neural-network .w2_3_1{margin-left: 370px; top: 320px; transform: rotate(-15deg);}
+.neural-network .w3_3_1{margin-left: 370px; top: 360px; transform: rotate(12deg);}
+
+.neural-network .w1_4_1{width: 270px; margin-left: 350px; top: 320px; transform: rotate(-50deg);}
+.neural-network .w2_4_1{margin-left: 370px; top: 350px; transform: rotate(-35deg);}
+.neural-network .w3_4_1{margin-left: 370px; top: 400px; transform: rotate(-12deg);}
+/* COUCHE 2 */
+.neural-network .w1_1_2{margin-left: 570px; top: 180px; transform: rotate(-15deg);}
+.neural-network .w2_1_2{margin-left: 570px; top: 235px; transform: rotate(17deg);}
+.neural-network .w3_1_2{width: 270px; margin-left: 550px; top: 275px; transform: rotate(40deg);}
+.neural-network .w4_1_2{width: 270px; margin-left: 550px; top: 320px; transform: rotate(48deg);}
+
+.neural-network .w1_2_2{margin-left: 570px; top: 220px; transform: rotate(-35deg);}
+.neural-network .w2_2_2{margin-left: 560px; top: 270px; transform: rotate(-15deg);}
+.neural-network .w3_2_2{margin-left: 560px; top: 320px; transform: rotate(15deg);}
+.neural-network .w4_2_2{margin-left: 550px; top: 350px; transform: rotate(35deg);}
+
+.neural-network .w1_3_2{width: 270px; margin-left: 550px; top: 270px; transform: rotate(-48deg);}
+.neural-network .w2_3_2{width: 270px; margin-left: 550px; top: 320px; transform: rotate(-35deg);}
+.neural-network .w3_3_2{margin-left: 570px; top: 360px; transform: rotate(-12deg);}
+.neural-network .w4_3_2{margin-left: 570px; top: 410px; transform: rotate(15deg);}
+/* COUCHE 3 */
+.neural-network .w1_1_3{margin-left: 750px; top: 220px; transform: rotate(35deg);}
+.neural-network .w1_2_3{margin-left: 750px; top: 270px; transform: rotate(15deg);}
+.neural-network .w1_3_3{margin-left: 750px; top: 320px; transform: rotate(-15deg);}
+.neural-network .w1_4_3{margin-left: 750px; top: 370px; transform: rotate(-35deg);}
+
+.matrix-1{
+    background-color: white; position: absolute;width: 320px; transform: rotate(90deg);
+    top: 300px; left: 530px;}
+.matrix-2{
+    background-color: white; position: absolute;width: 320px; transform: rotate(90deg);
+    top: 300px; left: 680px;}
+.X{ position: absolute; top: 300px; margin-left: 30px;}
+.theta1{ position: absolute; margin-left: 460px; margin-top: 20px;}
+.theta2{ position: absolute; margin-left: 650px; margin-top: 20px;}
+.theta3{ position: absolute; margin-left: 880px; margin-top: 50px;}
+.out{ position: absolute; top: 300px; margin-left: 1050px;}
+
+/* ===================================================================*/
+
+/*  ____________________________________________ */
+
+.container-aboutme .box-aboutme-presentation-interets {
+    margin-top: 30px;
+    margin-left: 30px;
+    top: 500px;
+    left: 30px;
+    width: 1800px;
+    height: 300px;
+    border: groove;
+    border-color: cornflowerblue;
+}
+
+/*  ____________________________________________ */
+
+.container-aboutme .box-aboutme-hobbies {
+    margin-top: 30px;
+    margin-left: 30px;
+    top: 500px;
+    left: 30px;
+    width: 1800px;
+    height: 300px;
+    border: groove;
+    border-color: cornflowerblue;
+}
+
+
+/* -------------------------------------------------------MY PROJECTS------------------------------------------------------------ */
+
+.container-myprojects  h1{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-size: 8mm;
+}
+
+.container-myprojects  p{
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+    font-size: 6mm;
+}
+
+
+.container-myprojects .container-hepatisis {
+    margin-top: 110px;
+    margin-left: 40px;
+    width: 800px;
+    height: 300px;
+    border: groove;
+    border-color: cornflowerblue;
+}
+
+/*  ____________________________________________ */
+
+.container-myprojects .container-nn {
+    margin-top: 30px;
+    margin-left: 30px;
+    top: 500px;
+    left: 30px;
+    width: 1800px;
+    height: 300px;
+    border: groove;
+    border-color: cornflowerblue;
+}
+
+/*  ____________________________________________ */
+
+.container-myprojects .container-falcon {
+    margin-top: 30px;
+    margin-left: 30px;
+    top: 500px;
+    left: 30px;
+    width: 1800px;
+    height: 300px;
+    border: groove;
+    border-color: cornflowerblue;
+}
+/*  ____________________________________________ */
+
+.container-myprojects .container-DSP {
+    margin-top: 30px;
+    margin-left: 30px;
+    top: 500px;
+    left: 30px;
+    width: 1800px;
+    height: 300px;
+    border: groove;
+    border-color: cornflowerblue;
+}
+
+/* -------------------------------------------------------MY AWARDS------------------------------------------------------------ */
+
+
+
+
+

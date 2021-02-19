@@ -1,0 +1,76 @@
+
+/* ---------------------------------------------------------------------------------- */
+body{
+    background-color: black;
+}
+
+/* HEADER */
+.header{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0%;
+    height: 70px;
+    line-height: 70px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+}
+
+.header .header-logo{
+    font-family: 'Roboto', sans-serif;
+    width: 5%;
+    float: left;
+    margin-left: 30px;
+    margin-top: 6px;
+
+}
+.header .header-logo img:hover{
+
+    width: 80%;
+    margin: 10px;
+}
+
+.header .header-menu{
+    float: right;
+    margin-left: 30px;
+}
+
+.header .header-menu a{
+    font-size: 20px;
+
+    margin-right: 15px;
+    color: cornflowerblue;
+    font-family: 'Roboto', sans-serif;
+
+}
+.header .header-menu a:hover{
+    color: whitesmoke;
+
+}
+
+
+/* BANNER */
+
+.banner{
+    margin-top: -20px;
+}
+
+.banner .banner-content{
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    top: 200px;
+
+}
+.banner .banner-content h1,
+.banner .banner-content h2{
+    color: whitesmoke;
+
+}
+
+
+/* ANIMATION */
+
+
+/* ---------------------------------------------------------------------------------- */
+
