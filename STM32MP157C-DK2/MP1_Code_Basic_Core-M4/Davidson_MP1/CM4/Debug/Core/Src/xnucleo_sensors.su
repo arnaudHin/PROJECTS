@@ -1,4 +1,0 @@
-xnucleo_sensors.c:15:19:I2C_Read_nucleo	40	static
-xnucleo_sensors.c:25:19:I2C_Write_nucleo	40	static
-xnucleo_sensors.c:32:19:I2C_ReadMulti_nucleo	40	static
-xnucleo_sensors.c:41:19:Init_all_sensors	16	static

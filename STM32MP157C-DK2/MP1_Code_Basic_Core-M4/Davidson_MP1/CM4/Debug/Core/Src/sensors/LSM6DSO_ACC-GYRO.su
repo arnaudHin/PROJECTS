@@ -1,2 +1,0 @@
-LSM6DSO_ACC-GYRO.c:18:19:Init_Gyroscope	16	static
-LSM6DSO_ACC-GYRO.c:54:19:Read_Gyroscope	32	static
