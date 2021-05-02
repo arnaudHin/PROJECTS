@@ -1,0 +1,4 @@
+gpio.c:24:6:BSP_GPIO_PinCfg	48	static
+gpio.c:41:6:GPIO_LED_tests	8	static
+gpio.c:49:6:init_leds	16	static
+gpio.c:65:6:MX_GPIO_Init	4	static
