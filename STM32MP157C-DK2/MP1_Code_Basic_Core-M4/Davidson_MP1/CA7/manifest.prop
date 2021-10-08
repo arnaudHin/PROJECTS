@@ -1,4 +1,0 @@
-MANIFEST_VERSION = openstlinux-5.4-dunfell-mp1-20-11-12
-KERNEL_DT = ./DeviceTree/Davidson_MP1/kernel
-UBOOT_DT = ./DeviceTree/Davidson_MP1/u-boot
-TFA_DT = ./DeviceTree/Davidson_MP1/tf-a

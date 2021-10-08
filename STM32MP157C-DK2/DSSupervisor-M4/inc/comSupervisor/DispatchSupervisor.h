@@ -1,0 +1,41 @@
+/**
+ * @file : DisptachSupervisor.h
+ * @brief :
+ * @version
+ * @date : June 4, 2021
+ * @author: Arnaud
+ */
+
+
+#ifndef DISPATCHSUPERVISOR_H_
+#define DISPATCHSUPERVISOR_H_
+
+
+#include <sensorsManager/SensorManager.h>
+#include <comSupervisor/PostmanSupervisor.h>
+#include <processorSupervisor/MeasuresProcsessorSupervisor.h>
+
+
+//////////////////////////////////////////////////////////////////////////////////
+//				Define						//
+//////////////////////////////////////////////////////////////////////////////////
+
+
+//////////////////////////////////////////////////////////////////////////////////
+//				Prototypes de fonctions Publiques		//
+//////////////////////////////////////////////////////////////////////////////////
+
+/**
+ * @fn void run()
+ * @brief
+ */
+extern void DispatchSupervisor_Run();
+
+
+
+
+
+
+
+#endif /* DISPATCHSUPERVISOR_H_ */
+

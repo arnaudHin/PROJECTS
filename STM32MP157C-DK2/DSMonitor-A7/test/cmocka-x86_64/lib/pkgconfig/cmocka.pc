@@ -1,0 +1,5 @@
+Name: cmocka
+Description: The cmocka unit testing library
+Version: 1.1.5
+Libs: -L/home/nisrine/tmp/C/cmocka-x86_64/lib -lcmocka
+Cflags: -I/home/nisrine/tmp/C/cmocka-x86_64/include
